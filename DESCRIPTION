@@ -1,0 +1,29 @@
+Package: BCEMTSclassifier
+Title: Breast Cancer EMT Subtype Classifier
+Version: 0.0.0.9000
+Authors@R: 
+     c(person(given = "Shihao",
+           family = "Sun",
+           role = c("aut", "cre"),
+           email = "17839977223@163.com"
+           ),
+    person(given = "Shuang",
+           family = "Chen",
+           role = c("aut"),
+           email = "chenshuang1303@163.com",
+           comment = c(ORCID = "0009-0005-6148-9721"))
+           )
+Description: Classification of whole-transcriptome assays of breast cancer samples 
+  using the Breast Cancer EMT Subtype ML classifier.
+Depends: R (>= 3.5.0)
+Imports: tidyverse, data.table, tidymodels
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
